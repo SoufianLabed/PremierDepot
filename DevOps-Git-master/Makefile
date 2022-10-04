@@ -1,4 +1,4 @@
-enzyme: enzyme.o pathway.o main.o liste.o
+enzyme: enzyme.c pathway.c main.c liste.c
 	gcc -o $@ $^
 
 liste.o: liste.c
